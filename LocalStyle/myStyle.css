@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.pageBackground{
+	background-color:#EEF8FD;
+}
+
+.menuBar{
+	width:100%;
+	height:28px;
+	background-color:#CCC;
+	z-index:1003;
+	position:relative;
+}
+
+.menu{
+	list-style-type:none;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+
+}
+
+.menu li{
+	float:left;
+	width:150px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align:center;
+	height:21px;
+		
+}
+
+.menu li a
+{
+	text-decoration:none;
+	background-color:#666;
+	color:white;
+	display:block;
+	padding:3px 8px 3px 8px;
+
+}
+
+
+
+.menu li ul a
+{
+	text-decoration:none;
+	background-color:#999;
+	border-top:rgb(255,255,255) thin dotted;
+	color:white;
+	display:block;
+	padding:3px 8px 3px 8px;
+	list-style-type:none;
+	margin:0px 0px 0px -40px;
+	width:100%;
+}
+
+
+
+
+.menu li ul li{
+	list-style-type:none;
+	height:auto;
+	width:150px;
+	position:relative;
+}
+
+.menu li ul{
+	display:none;	
+}
+
+.menu li ul li ul li{
+	left:110px;
+	display:inline-block;
+}
+
+
+.menu li ul li ul li{
+	display:none;	
+}
+
+.menu li:hover ul{
+	display:block;	
+}
+
+.menu li ul li:hover ul li{
+	display:block;	
+}
+
+
+.menu a:hover{
+	background-color:black;	
+}
+
+.menu li:nth-child(even) a
+{
+	background-color:#999;
+}
+
+.menu li ul li:nth-child(even) a {
+	background-color:#B0B0B0;
+	}
+
+
+.menu li:nth-child(even) a:hover
+{
+	background-color:black;
+}
+
+
+
+.redColor{
+	color:red;
+}
+
+.footer{
+	background-color:#666;
+	color:#FFF;
+	font-size:12px;
+}
+
+.boldBlue{
+	color:#03F;
+	font-weight:bold;
+}
+.greenBorder{
+	border:thin solid #09F;
+	padding:1% 1% 1% 1%;
+	margin-bottom:3%;
+}
+
+.commonText{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:justify;
+}
+
+.head1{
+	background-color:#009;
+	font-size:24px;
+	color:white;
+	padding-left:1%;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+.carousel img {
+        width:100%;
+        min-width:100;
+        height: auto;
+    }
+	
+.blueBackground{
+		background-color:#03F;
+		color:white;
+		padding:1%;
+	}
+	
+.productCaption{
+	color:blue;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+}
+
+.textOnHeaderImage{
+	 position:absolute; 
+	 top:10px; 
+	 right:10px; 
+	 float:right;
+	 font-size:24px;
+	 color:#FFF;
+	 text-align:right;
+}
+
+.productsList {
+
+	width:130%;
+	list-style-type:none;
+	float:left;
+	
+}
+
+.productsList a {
+	background-color:#666;
+	color:#FFF;
+	font-size:14px;
+	padding:2px 2px 2px 5px;
+	line-height:30px;
+	text-decoration:none;
+	display:block;
+	border-bottom:thin white solid;
+}
+
+.productsList li:nth-child(even) a {
+	background-color:#888;
+}
+
+
+.productsList li a:hover{
+	background-color:black;
+}
+	
+.enquiry{
+	font-size:16px;
+	color:blue;
+	text-align:center;
+}
+
+.enquiryBox{
+	margin:0px 0px 20px 20px;
+	position:relative;
+	
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 5px 20px;
+    margin: 5px 0 0 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+	
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:#f44336;
+	
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 12px;
+    position: relative;
+	
+}
+
+
+
+.container {
+    padding: 16px;
+	
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+	
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+	
+    z-index: 5000; /* Sit on top */
+    left: 40%;
+    top: 80px;
+    width: 60%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0);  Fallback color */
+    /*background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+    padding: 10px 10px 10px 10px;
+	/*background-color:white;*/
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 1% 1% 1% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+	z-index:5000;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 50%;
+    }
+}
+
+.blankSpace{
+	height:1px;
+	width:100%
+}
+
+.verticalGallery{
+	width:80%;
+	float:left;
+	padding-bottom:1%;
+	margin-left:10%
+}
+
+.productsRange{
+	font-size:28px;
+	font-weight:bold;
+	color:red;
+	text-align:center;
+}
+
+.autoSlide{
+	border:3px solid blue; overflow:hidden; padding:0px 0px 0px 0px; height:145px; margin-bottom:20px;
+	border-radius:20px; padding:5px 0 10px 0;
+}
+
+.autoSlideBorder{
+	border: 2px solid red;
+	
+}
+
+.clientLogoSlide{
+	
+	float:left;
+	width:203px;
+}
+
+.blueForComProfile{
+	background-color:#B0FFFF;
+	padding:0px 0px 0px 5px;
+
+}
+
+.comProfileCellBorder{
+	border:thick solid white;
+	height:30px;
+}
+
+.blueForHeading{
+	background-color:#E1FFFF;
+}
+
+.horizontalBar{
+	height:5px;
+	background-color:#C1E0FF;
+
+}
+
+.inputWidth{
+	width:100%;
+	background-color:red;
+}

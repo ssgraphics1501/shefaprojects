@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://shefaprojects.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/index.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/profile.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/structure.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/clientele.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/products.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/automation1.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/turnKeys1.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/plantDesign.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/turnKeys2.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/contactUs.php</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/reactorsAgitators.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/heatExchanger.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/dryerDoubleConeVacuum.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/filterDistillation.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/evaporatorsPVSplants.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/manufacturingGeneral.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/dustPlanetary.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/drumFlaqkersToteAssembly.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/pressureWaste.php</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shefaprojects.com/skidLaboratory.php</loc>
+  <priority>0.64</priority>
+</url>
+</urlset>
